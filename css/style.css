@@ -1,0 +1,42 @@
+.ocultar {
+    display: none;
+}
+.mostrar {
+    display: table-row;
+}
+
+#contenedor video{
+	max-width: 100%;
+	width: 100%;
+}
+#contenedor{
+	max-width: 20%;
+	position:relative;
+}
+canvas{
+	max-width: 100%;
+}
+canvas.drawingBuffer{
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+
+/* Agrega un fondo al contenedor de la lista de sugerencias */
+.tt-menu {
+    background-color: rgb(0, 0, 0); /* Cambia el color de fondo según tus preferencias */
+    border: 1px solid #ced4da; /* Agrega un borde alrededor de la lista */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra para resaltar la lista */
+}
+
+/* Estilos para cada elemento de la lista de sugerencias */
+.tt-suggestion {
+    padding: 8px;
+    cursor: pointer;
+}
+
+/* Cambia el color de fondo al pasar el ratón sobre las sugerencias */
+.tt-suggestion:hover {
+    background-color: #06080a;
+}
